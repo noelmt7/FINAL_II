@@ -9,7 +9,7 @@ def Booking(request):
 
 
 def login_view(request):
-    return render(request, 'Booking/login.html')
+    return render(request, 'login.html')
 
 def signup_view(request):
-    return render(request, 'Booking/signup.html')
+    return render(request, 'signup.html')
